@@ -17,6 +17,7 @@ export const GlobalCss = createGlobalStyle`
   body{
     background-color: ${cores.preto};
     color: ${cores.branca};
+    margin-top: 40px;
   }
 `
 export const Container = styled.div`
