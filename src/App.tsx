@@ -1,12 +1,9 @@
-import {BrowserRouter} from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 
-import Rotas from './routes'
+import Rotes from './routes'
 import Header from './components/Header'
 import { GlobalCss } from './styles'
 import Footer from './components/Footer'
-
-
-
 
 function App() {
   return (
@@ -15,7 +12,7 @@ function App() {
       <div className="container">
         <Header />
       </div>
-      <Rotas/>
+      <Rotes />
       <Footer />
     </BrowserRouter>
   )

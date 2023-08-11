@@ -1,10 +1,9 @@
-import styled from "styled-components";
-import { cores } from "../../styles";
+import styled from 'styled-components'
+import { cores } from '../../styles'
 
 export const Container = styled.footer`
   background-color: ${cores.cinza};
   padding: 32px 0;
-
 `
 
 export const SectionTittle = styled.h4`
@@ -18,12 +17,10 @@ export const Links = styled.ul`
 `
 
 export const Link = styled.a`
- color: ${cores.cinza};
- text-decoration: none;
- margin-right: 8px;
+  color: ${cores.cinza};
+  text-decoration: none;
+  margin-right: 8px;
 `
 export const FooterSection = styled.div`
   margin-bottom: 64px;
-
 `
-

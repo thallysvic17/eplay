@@ -1,4 +1,3 @@
-
 import ProductList from '../../components/ProductList'
 import Game from '../../models/game'
 

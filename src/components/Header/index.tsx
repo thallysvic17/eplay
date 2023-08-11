@@ -11,13 +11,13 @@ const Header = () => (
       <nav>
         <Links>
           <LinkItem>
-            <Link to='/categories'>Categorias</Link>
+            <Link to="/categories">Categorias</Link>
           </LinkItem>
           <LinkItem>
-            <Link to='/categories'>Novidades</Link>
+            <Link to="/categories">Novidades</Link>
           </LinkItem>
           <LinkItem>
-          <Link to='/categories'>Promocoes</Link>
+            <Link to="/categories">Promocoes</Link>
           </LinkItem>
         </Links>
       </nav>
