@@ -18,7 +18,12 @@ const Button = ({
   variant = 'primary'
 }: Props) => {
   if (type === 'button') {
-    ;<ButtonContainer variant={variant} type="button" title={title} onClick={onCLick}>
+    ;<ButtonContainer
+      variant={variant}
+      type="button"
+      title={title}
+      onClick={onCLick}
+    >
       {children}
     </ButtonContainer>
   }
